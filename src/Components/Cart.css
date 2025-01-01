@@ -1,0 +1,143 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .cart-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .cart-product {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-product .img {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .cart-product .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cart-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .cart-amt {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d35400; /* A vibrant orange for price */
+  }
+  
+  .cart-product button {
+    background-color: #ff6b6b; /* Softer red tone */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-product button:hover {
+    background-color: #e63946; 
+  }
+  
+  .cart-empty {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 50px;
+  }
+  
+  .cart-empty img {
+    width: 200px;
+    margin-top: 20px;
+    opacity: 0.8;
+  }
+  
+
+.success-message {
+    text-align: center;
+    color: #28a745;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  
+  .order-confirm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .order-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .remove-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: #c0392b;
+  }
+  
